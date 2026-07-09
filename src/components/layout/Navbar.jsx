@@ -19,6 +19,7 @@ function Navbar() {
           <NavLink to="/designing" onClick={() => setOpen(false)}>Designing</NavLink>
           <NavLink to="/coding" onClick={() => setOpen(false)}>Coding</NavLink>
           <NavLink to="/projects" onClick={() => setOpen(false)}>Projects</NavLink>
+          <NavLink to="/leadership" onClick={() => setOpen(false)}>Leadership</NavLink>
           <NavLink to="/contact" onClick={() => setOpen(false)}>Contact</NavLink>
         </nav>
 
