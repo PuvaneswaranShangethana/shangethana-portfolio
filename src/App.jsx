@@ -1,11 +1,14 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import Navbar from "./components/layout/Navbar";
+import Footer from "./components/layout/Footer";
 
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Designing from "./pages/Designing/Designing";
 import Coding from "./pages/Coding/Coding";
 import Projects from "./pages/Projects/Projects";
+import Leadership from "./pages/Leadership/Leadership";
 import Contact from "./pages/Contact/Contact";
 import NotFound from "./pages/NotFound/NotFound";
 
@@ -20,9 +23,12 @@ function App() {
         <Route path="/designing" element={<Designing />} />
         <Route path="/coding" element={<Coding />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/leadership" element={<Leadership />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+
+      <Footer />
     </BrowserRouter>
   );
 }
