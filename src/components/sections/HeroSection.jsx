@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { ReactTyped } from "react-typed";
-import CountUp from "react-countup";
 import {
   FaArrowRight,
   FaCode,
@@ -94,6 +93,7 @@ function HeroSection() {
         >
           <div className="hero-card-header">
             <span>Personal Brand</span>
+
             <div className="status-badge">
               <span className="status-dot"></span>
               Available
@@ -109,23 +109,17 @@ function HeroSection() {
 
           <div className="hero-stats">
             <div>
-              <strong>
-                <CountUp end={10} duration={2} />+
-              </strong>
+              <strong>10+</strong>
               <span>Projects</span>
             </div>
 
             <div>
-              <strong>
-                <CountUp end={2} duration={2} />
-              </strong>
+              <strong>2</strong>
               <span>Main Areas</span>
             </div>
 
             <div>
-              <strong>
-                <CountUp end={2026} duration={2} separator="" />
-              </strong>
+              <strong>2026</strong>
               <span>Journey</span>
             </div>
           </div>
