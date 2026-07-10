@@ -6,14 +6,41 @@ function Footer() {
     <footer className="footer">
       <div className="container footer-container">
         <div>
-          <h3>Shangethana<span>.</span></h3>
-          <p>Designing ideas. Coding solutions. Building future brands.</p>
+          <h3>
+            Shangethana<span>.</span>
+          </h3>
+          <p>
+            Designing ideas. Coding solutions. Building future brands.
+          </p>
         </div>
 
         <div className="footer-socials">
-          <a href="https://github.com/" target="_blank"> <FaGithub /> </a>
-          <a href="https://www.linkedin.com/in/shangethana11" target="_blank"> <FaLinkedin /> </a>
-          <a href="https://www.youtube.com/@CinematicHeartbeat" target="_blank"> <FaYoutube /> </a>
+          <a
+            href="https://github.com/@PuvaneswaranShangethana"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub Profile"
+          >
+            <FaGithub />
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/shangethana11"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn Profile"
+          >
+            <FaLinkedin />
+          </a>
+
+          <a
+            href="https://www.youtube.com/@CinematicHeartbeat"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="YouTube Channel"
+          >
+            <FaYoutube />
+          </a>
         </div>
       </div>
 
